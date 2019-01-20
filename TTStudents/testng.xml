@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Disney" verbose="1" >
+  <test name="Smoke" >
+    <classes>
+       <class name="com.testngrunner.TestngRunner" />
+    </classes>
+  </test>
+ 
+  
+</suite>

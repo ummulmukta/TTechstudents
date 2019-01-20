@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Disney" duration-ms="296" started-at="2019-01-18T14:37:00Z" finished-at="2019-01-18T14:37:00Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testngrunner.TestngRunner@4c70fda8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Smoke" duration-ms="296" started-at="2019-01-18T14:37:00Z" finished-at="2019-01-18T14:37:00Z">
+      <class name="com.testngrunner.TestngRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testngrunner.TestngRunner@4c70fda8]" name="setUpClass" is-config="true" duration-ms="182" started-at="2019-01-18T09:37:00Z" finished-at="2019-01-18T09:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testngrunner.TestngRunner@4c70fda8]" name="feature" duration-ms="9" started-at="2019-01-18T09:37:00Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-18T09:37:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Web application login function and web table data Validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testngrunner.TestngRunner@4c70fda8]" name="tearDownClass" is-config="true" duration-ms="27" started-at="2019-01-18T09:37:00Z" finished-at="2019-01-18T09:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testngrunner.TestngRunner -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Disney -->
+</testng-results>
